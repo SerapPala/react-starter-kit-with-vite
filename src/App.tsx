@@ -2,6 +2,8 @@ import styles from  "./App.module.css"
 import Test from "./components/Test"
 import {Title} from "./components/StyledComponent"
 import Bootstrap from "./components/Bootstrap"
+import './tailwind.css'
+import Tailwind from "./components/Tailwind"
 function App() {
 
     console.log(process.env.REACT_APP_API_URL)
@@ -15,6 +17,7 @@ console.log(styles)
 
           <Test/>
 <Bootstrap/>
+          <Tailwind/>
 
       </div>
   )
